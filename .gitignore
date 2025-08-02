@@ -1,0 +1,72 @@
+# === Python cache ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# === Jupyter Notebook Checkpoints ===
+.ipynb_checkpoints/
+
+# === Model Training Artifacts ===
+results/
+logs/
+*.log
+*.pth
+*.ckpt
+*.pt
+*.onnx
+
+# === HF Transformers ===
+*.h5
+*.tflite
+*.msgpack
+*.safetensors
+
+# === Data Files ===
+*.csv
+*.tsv
+*.xlsx
+*.jsonl
+*.zip
+data/
+downloads/
+raw_data/
+.DS_Store
+
+# === Model Directory (keep only final model folder if needed) ===
+model/**/checkpoint-*/
+model/**/trainer_state.json
+model/**/optimizer.pt
+model/**/scheduler.pt
+model/**/training_args.bin
+
+# === Colab auto trash ===
+*.bak
+*.tmp
+*.swp
+
+# === Virtual Environments ===
+.env/
+.venv/
+env/
+venv/
+ENV/
+pip-selfcheck.json
+
+# === VS Code ===
+.vscode/
+
+# === Hugging Face Hub Files ===
+*.lock
+*.gitattributes
+tokenizer_cache/
+transformers_cache/
+hf_cache/
+
+# === General OS / IDE files ===
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+*.iml
+.idea/
